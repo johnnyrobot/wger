@@ -1,8 +1,7 @@
-<img src="https://raw.githubusercontent.com/wger-project/wger/master/wger/core/static/images/logos/logo.png" width="100" height="100" alt="wger logo" />
+# Git Fit - Docker Compose Stack
 
-
-# docker compose stacks for wger
-Contains 3 docker compose environments:
+*A fitness tracking application powered by wger*
+Git Fit contains 3 docker compose environments:
 
 * prod (in root of this repository)
 * dev (uses sqlite)
@@ -15,7 +14,7 @@ read the warning in the env file.
 
 **TLDR:** just do `docker compose up -d`
 
-For more details, consult the documentation (and the config files):
+For more details about the underlying wger platform, consult the documentation:
 
 * production: <https://wger.readthedocs.io/en/latest/production/docker.html>
 * development: <https://wger.readthedocs.io/en/latest/development/docker.html>
@@ -25,10 +24,8 @@ since sometimes new configurations or environmental variables are added.
 
 ## Contact
 
-Feel free to contact us if you found this useful or if there was something that
-didn't behave as you expected. We can't fix what we don't know about, so please
-report liberally. If you're not sure if something is a bug or not, feel free to
-file a bug anyway.
+Git Fit is built on the excellent wger platform. For platform-related issues,
+please refer to the original wger project:
 
 * Mastodon: <https://fosstodon.org/@wger>
 * Discord: <https://discord.gg/rPWFv6W>
@@ -37,9 +34,11 @@ file a bug anyway.
 
 ## Sources
 
-All the code and the content is freely available:
+Git Fit is based on the open-source wger project:
 
 * <https://github.com/wger-project/>
+
+This Git Fit deployment configuration is a customized version for enhanced fitness tracking.
 
 ## Licence
 
