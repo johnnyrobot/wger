@@ -34,8 +34,14 @@ services:
       - web
     volumes:
       - ./config/nginx.conf:/etc/nginx/conf.d/default.conf
-      - static:/wger/static:ro
-      - media:/wger/media:ro
+      - type: volume
+        source: static
+        target: /wger/static
+        read_only: true
+      - type: volume
+        source: media
+        target: /wger/media
+        read_only: true
     ports:
       - "80:80"
     healthcheck:
