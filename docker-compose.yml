@@ -43,7 +43,7 @@ services:
         target: /wger/media
         read_only: true
     ports:
-      - "80:80"
+      - "8787:80"
     healthcheck:
       test: service nginx status
       interval: 10s
